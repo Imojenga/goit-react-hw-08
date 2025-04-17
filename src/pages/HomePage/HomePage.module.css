@@ -1,0 +1,16 @@
+.wrp {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: darkblue;
+  padding-left: 16px;
+}
+
+.text {
+  color: darkblue;
+  font-size: 18px;
+  font-style: italic;
+}

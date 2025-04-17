@@ -1,0 +1,29 @@
+.wrp {
+  display: flex;
+  gap: 24px;
+}
+
+.text {
+  text-transform: lowercase;
+  color: darkgreen;
+  align-self: center;
+}
+
+.btn {
+  padding: 6px;
+  color: darkblue;
+  border: 2px solid darkblue;
+  border-radius: 6px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: darkblue;
+  font-size: 16px;
+  height: 40px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: white;
+  background-color: darkblue;
+}

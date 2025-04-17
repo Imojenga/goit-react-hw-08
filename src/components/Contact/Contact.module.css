@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.infoWrp {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  fill: darkblue;
+}
+
+.text {
+  color: darkblue;
+}
+
+.delete {
+  height: 30px;
+  font-size: 16px;
+  padding: 4px;
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  background-color: transparent;
+  color: darkblue;
+}
+
+.delete:hover,
+.delete:focus {
+  background-color: darkblue;
+  color: white;
+}

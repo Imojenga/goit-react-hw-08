@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: darkblue;
+  padding-bottom: 16px;
+}

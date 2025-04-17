@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  gap: 4px;
+}
+
+.label {
+  color: darkblue;
+  padding-left: 8px;
+}
+
+.input {
+  border: 1px solid darkblue;
+  height: 30px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: darkblue;
+  outline: none;
+}
